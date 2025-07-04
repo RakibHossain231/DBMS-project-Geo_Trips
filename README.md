@@ -61,5 +61,5 @@ This project was collaboratively developed by:
 
 This project was submitted as part of the **Database Management Systems** course at our university.
 
-## 📁 Repository Structure
+
 
