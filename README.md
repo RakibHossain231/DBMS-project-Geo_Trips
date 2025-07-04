@@ -52,10 +52,10 @@ The schema also supports many-to-many relationships using junction tables (e.g.,
 
 This project was collaboratively developed by:
 
-- **Md Nur Uddin Tamim** [`0112310331`]  
-- **Rakib Hossain** [`0112310308`]  
-- **Pratay Paul** [`0112310163`]  
-- **Md Nahid Hasan** [`0112310467`]  
+- **Md Nur Uddin Tamim** [`0112310331`]  : FullStack
+- **Rakib Hossain** [`0112310308`]   : Backend
+- **Pratay Paul** [`0112310163`]  : Frontend & Web Design
+- **Md Nahid Hasan** [`0112310467`]   : Backend & Testing
 
 ## 📌 Course Info
 
