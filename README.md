@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # 🌍 Geo Trips - Travel Agency Management System
 
 Geo Trips is a web-based Travel Agency Management System designed to streamline booking, visa processing, hotel management, and affiliate operations. This system was developed as a part of our **Database Management Systems (DBMS)** course project.
@@ -63,3 +64,6 @@ This project was submitted as part of the **Database Management Systems** course
 
 
 
+=======
+# DBMS-project-Geo_Trips
+>>>>>>> 28f00ff6a53cea6663e4c7ed59641a131649bfce
