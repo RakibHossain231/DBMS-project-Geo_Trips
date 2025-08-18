@@ -14,16 +14,31 @@ Geo Trips aims to provide a digital solution for managing the core functions of 
 
 The system is backed by a structured **relational database**, and the interface offers a clean and functional user experience for both customers and admins.
 
-## 🛠️ Features
+## ✨ Features  
 
-- ✈️ Travel Package Management  
-- 🛎️ Hotel Management and Ratings  
-- 💳 Booking and Online Payments  
-- 🧾 Visa Application with Document Tracking  
-- 🎟️ Discount Coupons  
-- ☎️ Affiliate Partner Management  
-- 📊 Admin Dashboard for Data Monitoring  
-- 🔒 Secure Authentication for Admins and Users  
+### 🔹 User Side  
+- Register and log in securely.  
+- Browse available travel packages.  
+- Book tickets and view booking history.  
+- Cancel bookings with proper validation.  
+- Update personal profile and documents (e.g., visa, passport).  
+
+### 🔹 Admin Side  
+- Add, update, and delete travel packages, hotels, and locations.  
+- Manage bookings (approve, cancel, verify payments).  
+- Handle customers (add, remove, update).  
+- Monitor pending payments and booking cancellations.  
+- Centralized admin dashboard for full system control.  
+
+---
+
+## 🛠️ Tech Stack  
+- **Backend:** PHP  
+- **Database:** MySQL  
+- **Frontend:** HTML, CSS, TailwindCSS  
+- **Additional Tools:** PHPMailer (for email notifications), XAMPP/WAMP  
+
+---
 
 ## 🗂️ Technologies Used
 
@@ -32,8 +47,9 @@ The system is backed by a structured **relational database**, and the interface 
 - **Database:** MySQL  
 - **Tools:** XAMPP, phpMyAdmin, Git, GitHub  
 
-## 🧩 Database Design
+---
 
+## 🧩 Database Design
 The system uses a normalized MySQL database schema that includes:
 
 - Admins  
@@ -46,11 +62,11 @@ The system uses a normalized MySQL database schema that includes:
 - Affiliates  
 - Coupons  
 - Cancellations  
-
 The schema also supports many-to-many relationships using junction tables (e.g., `package_hotel`, `package_location`), and derived attributes are computed programmatically.
 
-## 👨‍👩‍👧‍👦 Team Members
+---
 
+## 👨‍👩‍👧‍👦 Team Members
 This project was collaboratively developed by:
 
 - **Md Nur Uddin Tamim** [`0112310331`]  : FullStack
@@ -58,10 +74,42 @@ This project was collaboratively developed by:
 - **Pratay Paul** [`0112310163`]  : Frontend & Web Design
 - **Md Nahid Hasan** [`0112310467`]   : Backend & Testing
 
+---
+
 ## 📌 Course Info
 
 This project was submitted as part of the **Database Management Systems** course at our university.
 
+---
+
+## 📂 Folder Structure
+- Travel-Management-System/
+- │── admin_panel/ # Admin dashboard & management pages
+- │── assets/ # CSS, images, and static assets
+- │── PHPMailer/ # Email service integration
+- │── uploads/ # Uploaded documents (visa, passport, etc.)
+- │── things/ # Additional resources
+- │── resources/ # Reusable components
+- │── about.php # About page
+- │── home.php # Home / landing page
+- │── login.php # User login
+- │── logout.php # User logout
+- │── user_profile.php # Profile management
+- │── make_payment.php # Payment logic
+- │── payment_verify.php # Payment verification
+- │── packages.php # Display travel packages
+- │── package_create.php # Admin: create new package
+- │── package_update.php # Admin: update package
+- │── package_delete.php # Admin: delete package
+- │── package_list.php # Admin: list all packages
+- │── services.php # Travel services page
+- │── weather.php # Weather info page
+- │── visa_docs.php # Visa document management
+- │── geo_trips.php # Geo-based trips data
+- │── README.md # Project documentation
+
+---
 
 # DBMS-project-Geo_Trips
 
+---
