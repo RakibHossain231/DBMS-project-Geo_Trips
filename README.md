@@ -32,14 +32,6 @@ The system is backed by a structured **relational database**, and the interface 
 
 ---
 
-## 🛠️ Tech Stack  
-- **Backend:** PHP  
-- **Database:** MySQL  
-- **Frontend:** HTML, CSS, TailwindCSS  
-- **Additional Tools:** PHPMailer (for email notifications), XAMPP/WAMP  
-
----
-
 ## 🗂️ Technologies Used
 
 - **Frontend:** HTML, CSS, JavaScript  
